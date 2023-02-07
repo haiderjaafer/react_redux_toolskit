@@ -5,7 +5,7 @@ import { selectALLPosts } from "./postSlice";
 const PostsList = () => {
 
     const posts =  useSelector(selectALLPosts);
-    //const posts =  useSelector(state => state.posts);
+    //const posts =  useSelector(state => state.posts)
 
     const renderPosts = posts.map(post=>(
 
