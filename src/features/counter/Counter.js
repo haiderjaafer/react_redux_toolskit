@@ -37,6 +37,7 @@ const Counter =()=>{
                 <button onClick={()=>dispatch(incrementByAmount(addValue))}>Add Amount</button>
                 <button onClick={ resetAll}>reset All</button>
                 <button >modified files added</button>
+                <button >modified files added third commit</button>
             </div>
         </section>
 
